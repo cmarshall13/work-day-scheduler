@@ -18,21 +18,74 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header class="jumbotron text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div class="row time-block">
+        <p class="col-2 hour pt-2 time-value">9AM</p>
+        <textarea id="09" class="col-8 task-data description"></textarea>
+        <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row time-block">
+        <p class="col-2 hour pt-2 time-value">10AM</p>
+        <textarea id="10" class="col-8 task-data description"></textarea>
+        <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row time-block">
+        <p class="col-2 hour pt-2 time-value">11AM</p>
+        <textarea id="11" class="col-8 task-data description"></textarea>
+        <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+          
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">12PM</p>
+          <textarea id="12" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">1PM</p>
+          <textarea id="13" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+              
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">2PM</p>
+          <textarea id="14" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+                
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">3PM</p>
+          <textarea id="15" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+                  
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">4PM</p>
+          <textarea id="16" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
+                  
+      <div class="row time-block">
+          <p class="col-2 hour pt-2 time-value">5PM</p>
+          <textarea id="17" class="col-8 task-data description"></textarea>
+          <button class="col-2 saveBtn"><i class="far fa-save"></i></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src=".assets/js/script.js"></script>
   </body>
 </html>
