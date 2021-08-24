@@ -43,4 +43,4 @@ function saveTask () {
 
 loadTasks();
 checkTime();
-$('.saveBtn').click(saveTasks);
+$('.saveBtn').click(saveTask);
