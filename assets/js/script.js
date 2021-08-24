@@ -1,5 +1,5 @@
-const currentDate = moment().format("dddd MMMM Do");
-$("#currentDate").html(currentDate);
+const currentDay = moment().format("dddd MMMM Do");
+$("#currentDay").html(currentDay);
 
 const currentHour = moment().format('HH');
 
