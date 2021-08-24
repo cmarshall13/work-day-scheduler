@@ -33,3 +33,14 @@ function loadTasks () {
         });
     });
 };
+
+//create function to save tasks when "save button" is clicked
+function saveTask () {
+    let id = $(this).parent().children('textarea').attr('id');
+    let task = $(this).parent().children('textarea').setInterval();
+    localStorage.setItem(id, task);
+};
+
+loadTasks();
+checkTime();
+$('.saveBtn').click(saveTasks);
